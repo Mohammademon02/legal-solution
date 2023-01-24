@@ -41,7 +41,7 @@
                 <button class="btn legal-btn-color ms-4" type="submit">Free Consultation</button>
               </div>
             </div>
-          </nav>
+        </nav>
           <!-- navbar section end  -->
 
           <!-- banner section start  -->
@@ -142,32 +142,36 @@
 
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active position-relative">
                     <img src="./images/slider-1.png" class="d-block img-fluid" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <img src="" alt="">
-                      <h4>Awlad Hossain</h4>
-                      <p><small>UIX Designer</small></p>
-                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                    <div class="carousel-caption d-block d-md-block position-absolute top-50 start-50 translate-middle">
+                        <img src="./images/person.png" alt="">
+                        <h4>Awlad Hossain</h4>
+                        <p><small>UIX Designer</small></p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item position-relative">
                     <img src="./images/slider-2.png" class="d-block img-fluid " alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-caption d-block d-md-block position-absolute top-50 start-50 translate-middle">
+                        <img src="./images/person.png" alt="">
+                        <h4>Awlad Hossain</h4>
+                        <p><small>UIX Designer</small></p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item position-relative ">
                     <img src="./images/slider-3.png" class="d-block img-fluid" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
+                    <div class="carousel-caption d-block d-md-block position-absolute top-50 start-50 translate-middle">
+                        <img src="./images/person.png" alt="">
+                        <h4>Awlad Hossain</h4>
+                        <p><small>UIX Designer</small></p>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                     </div>
                   </div>
                 </div>
@@ -182,11 +186,104 @@
               </div>
         </section>
         <!-- clients feedback section end  -->
+
+        <!-- FAQ section start  -->
+        <section class="container my-5">
+            <h2 class="my-4 fw-bold text-center">Frequently Asked Any Questions</h2>
+            <p class="mb-5 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br>
+            suffered alteration in some form, by injected humour.</p>
+            <div class="row">
+                <div class="col">
+                    <div class="accordion " id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item legal-faq-bg">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button legal-faq-bg fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                               1. What are the differences between Flexbox and Grid ?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. The two specifications share some common features, however, and if you have already learned how to use flexbox, the similarities should help you get to grips with Grid.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-5 legal-faq-bg">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button legal-faq-bg fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                               2. What is the purpose of Media Queries ?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-5 legal-faq-bg">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button legal-faq-bg fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              3. What is CSS box model ?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item mt-5 legal-faq-bg">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button legal-faq-bg fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                             4. What is Semantic tag ?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class=" img-fluid" src="./images/faq.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- FAQ section end  -->
     </main>
 
     <!-- this is footer section  -->
-    <footer>
-        
+    <footer class="bg-dark">
+        <section class="container">
+            <div class="row row-cols-2 row-cols-md-3 py-5">
+                <div class="col">
+                    <img src="./images/logo.png" alt="">
+                    <p class="text-white"><small>
+                        There are many variations of 
+                        passages of Lorem Ipsum 
+                        available, but the majority have 
+                        suffered alteration in some 
+                        form, by injected humour.
+                    </small>
+                    </p>
+                </div>
+                <div class="col text-white">
+                    <h5>Usefull Link</h5>
+                    <p><small>Home</small></p>
+                    <p><small>About Us</small></p>
+                    <p><small>Cases</small></p>
+                    <p><small>Blog</small></p>
+                    <p><small>Contact Us</small></p>
+                </div>
+                <div class="col text-white">
+                    <h5>Contact Now</h5>
+                    <p><small>555 4th 5t NW, Washington <br> DC 20530, United States</small></p>
+                    <p><small>+88 01750 000 000</small></p>
+                    <p><small>info@gmail.com</small></p>
+                </div>
+            </div>
+        </section>
     </footer>
     <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
