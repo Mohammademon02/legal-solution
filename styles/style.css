@@ -1,0 +1,12 @@
+
+
+
+.legal-btn-color {
+    background-color: #B68C5A;
+    color: white;
+}
+
+.legal-btn-color:hover{
+    background-color: rgba(182, 141, 90, 0.8);
+    color: white;
+}
